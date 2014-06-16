@@ -14,6 +14,10 @@ grails.project.dependency.resolution = {
 	}
 
 	dependencies {
+        build ('org.kuali.maven.wagons:maven-s3-wagon:1.1.22') {
+            export = false
+            exclude 'slf4j-log4j12'
+        }
 		compile 'com.icegreen:greenmail:1.3'
 		runtime 'javax.mail:mail:1.4.1'
 	}
