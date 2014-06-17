@@ -27,7 +27,7 @@ class GreenmailGrailsPlugin {
 	def documentation = "http://grails.org/plugin/greenmail"
 	
 	def groupId = "ducktape"
-	def version = "1.3.5"  // original plugin version: 1.3.4
+	def version = "1.3.4"
 	
 	def grailsVersion = "1.3.0 > *"
 	def dependsOn = [:]

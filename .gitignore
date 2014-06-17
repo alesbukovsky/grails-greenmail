@@ -13,4 +13,4 @@ stacktrace.log
 *.ipr
 *.iws
 *.tld
-
+.DS_Store
